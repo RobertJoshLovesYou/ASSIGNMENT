@@ -9,10 +9,13 @@ body {
   }
   body::-webkit-scrollbar {
     display: none;
+    
   }
   .header {
-    background-color: #441868;
-    color: rgb(0, 0, 0);
+    background-image: url('onechi.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,8 +24,11 @@ body {
   
   .header h1 {
     font-size: 40px;
+    color: rgb(0, 0, 0);
   }
-  
+  .header p {
+    color: rgb(0, 0, 0);
+  }
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -42,28 +48,33 @@ body {
     text-decoration: none;
     padding: 14px 20px;
   }
-  .navbar a:hover {
-    background-color: #1f1a49;
-    color: black;
+
+  .content > .content__right {
+    display: flex;
+    flex-direction: column;
+    background-color: #2e315f;
+    padding: 20px;
   }
-  .navbar a.active {
-    background-color: #2a778a;
-    color: #f1f1f1;
-    margin: 0;
-  }
-  .content {
-    display: grid;
-    grid-template-columns: 428px auto;
-  }
+
   .content > .content__left {
     display: flex;
     flex-direction: column;
-    background-color: #ffffff;
+    background-color: #2e315f;
     padding: 20px;
   }
-  .image-container {
+  .content__leftTopImage{
     padding: 20px;
-    background-color: #525252;
+    background-image: url('onepunchman.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .content__rightTopImage{
+    padding: 20px;
+    background-image: url('haha.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
   .content > .content__left > .content__leftTopImage {
     height: 200px;
