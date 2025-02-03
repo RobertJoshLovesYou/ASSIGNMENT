@@ -12,7 +12,7 @@ body {
     
   }
   .header {
-    background-image: url('https://raw.githubusercontent.com/RobertJoshLovesYou/repo/main/onechi.gif');
+    background-image: url('onechi.gif');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
